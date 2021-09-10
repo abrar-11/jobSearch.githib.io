@@ -210,7 +210,7 @@ body {
         border-radius: 5px;
     }
     .cards {
-        grid-template-columns: 1fr;
+        grid-template-columns: 2fr;
     }
     .pop {
         width: 100%;
