@@ -217,10 +217,10 @@ body {
         padding: 1.4rem;
     }
     .card .job_title {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
     .card .job_desc {
-        font-size: 1.3rem;
+        font-size: 1.1rem;
     }
     .popup_wrapper {
         background-color: var(--blue);
