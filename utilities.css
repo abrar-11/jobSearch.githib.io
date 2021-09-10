@@ -1,0 +1,92 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.py-1{
+   padding-top: 1rem;
+   padding-bottom: 1rem;
+}
+.px-2{
+   padding-left: 1.75rem;
+   padding-right: 1.75rem;
+}
+.py-2{
+   padding-top: 1.75rem;
+   padding-bottom: 1.75rem;
+}
+.px-1{
+   padding-left: 1rem;
+   padding-right: 1rem;
+}
+.bold {
+    font-weight: bold;
+}
+.center{
+ margin-left: auto;   
+ margin-right: auto;   
+}
+
+.text-white{
+    color: #ffffff;
+}
+.bg-green{
+    background-color: var(--green);
+}
+.text-center{
+    text-align: center;
+}
+.font-sm{
+    font-size: 0.8rem;
+}
+.font-md{
+    font-size: 0.95rem;
+}
+.font-300{
+    font-weight: 300  ;
+}
+.font-400{
+    font-weight: 400;
+}
+.font-500{
+    font-weight: 500;
+}
+.font-600{
+    font-weight: 600;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex-c{
+    flex-direction: column;
+}
+
+.js-sb {
+    justify-content: space-between;
+}
+
+.js-sa {
+    justify-content: space-around;
+}
+.js-c{justify-content: center;}
+
+.js-se {
+    justify-content: space-evenly;
+}
+
+.ai-c {
+    align-items: center;
+}
+
+img{
+    max-width: 100%;
+}
