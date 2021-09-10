@@ -210,14 +210,18 @@ body {
         border-radius: 5px;
     }
     .cards {
-        display: none;
         grid-template-columns: 1fr;
     }
     .pop {
         width: 100%;
         padding: 1.4rem;
     }
-
+    .card .job_title {
+        font-size: 1.5rem;
+    }
+    .card .job_desc {
+        font-size: 1.3rem;
+    }
     .popup_wrapper {
         background-color: var(--blue);
     }
